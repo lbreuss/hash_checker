@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Nastavit otisk…">
+<!ENTITY setDigestDialog.path "Cesta:">
+<!ENTITY setDigestDialog.enterCS "Vložte kontrolní součet:">
+<!ENTITY setDigestDialog.unspecified "Otisk nezadán">
+<!ENTITY setDigestDialog.close "Zavřít">
+<!ENTITY setDigestDialog.ok "OK">

@@ -1,0 +1,8 @@
+<!ENTITY options.title "Thiết lập MD5 Reborned Hasher">
+<!ENTITY options.norPan.label "Thiết lập cơ bản">
+<!ENTITY options.norPan.description "Bạn có thể xóa hết các digest đã lưu bằng nút dưới đây.">
+<!ENTITY options.norPan.cleanLabel "Xóa các digest đã lưu">
+<!ENTITY options.advPan.label "Tùy chọn nâng cao">
+<!ENTITY options.advPan.description "Cảnh báo: việc thay đổi các tùy chọn này có thể gây nguy hiểm.">
+<!ENTITY options.advPan.intervalLabel "Khoảng thời gian (mili-giây):">
+<!ENTITY options.advPan.chunkSize "Cỡ mảnh (bytes):">

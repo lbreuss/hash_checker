@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Checksum gerado:">
+<!ENTITY checkDigestDialog.title "Verificar arquivo...">
+<!ENTITY checkDigestDialog.path "Caminho:">
+<!ENTITY checkDigestDialog.generate "Gerar código de verificação">
+<!ENTITY checkDigestDialog.enterCS "Digitar checksum:">
+<!ENTITY checkDigestDialog.notGenerated "Clique para gerar o código de verificação">
+<!ENTITY checkDigestDialog.close "Fechar">

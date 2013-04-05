@@ -1,0 +1,8 @@
+<!ENTITY options.title "MD5 Reborned Hasher beállítások">
+<!ENTITY options.norPan.label "Alapbeállítások">
+<!ENTITY options.norPan.description "Az összes mentett hash érték törlése az alábbi gombbal.">
+<!ENTITY options.norPan.cleanLabel "Mentett hash értékek törlése">
+<!ENTITY options.advPan.label "Speciális beállítások">
+<!ENTITY options.advPan.description "Figyelem! Ezen beállítások módosítása, anélkül, hogy tudnánk mit módosítunk, veszélyes lehet.">
+<!ENTITY options.advPan.intervalLabel "Intervallum idő (ms):">
+<!ENTITY options.advPan.chunkSize "Adattöredék (chunk) méret (bájt):">

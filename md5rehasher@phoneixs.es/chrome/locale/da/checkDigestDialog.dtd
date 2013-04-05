@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Genereret kontrolsum:">
+<!ENTITY checkDigestDialog.title "Undersøg fil…">
+<!ENTITY checkDigestDialog.path "Sti:">
+<!ENTITY checkDigestDialog.generate "Generer digest">
+<!ENTITY checkDigestDialog.enterCS "Indtast kontrolsum:">
+<!ENTITY checkDigestDialog.notGenerated "Klik Generer digest">
+<!ENTITY checkDigestDialog.close "Luk">

@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Skapad kontrollsumma:">
+<!ENTITY checkDigestDialog.title "Kontrollera fil…">
+<!ENTITY checkDigestDialog.path "Sökväg:">
+<!ENTITY checkDigestDialog.generate "Skapa sammandrag">
+<!ENTITY checkDigestDialog.enterCS "Ange kontrollsumma:">
+<!ENTITY checkDigestDialog.notGenerated "Klicka på &quot;Skapa sammandrag&quot;">
+<!ENTITY checkDigestDialog.close "Stäng">

@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Dosyayı Kontrol et...">
+<!ENTITY setDigestDialog.path "Yol:">
+<!ENTITY setDigestDialog.enterCS "Sağlamayı gir:">
+<!ENTITY setDigestDialog.unspecified "Belirsiz bir fonksiyon">
+<!ENTITY setDigestDialog.close "Kapat">
+<!ENTITY setDigestDialog.ok "Tamam">

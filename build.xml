@@ -1,0 +1,34 @@
+<project name="md5hasher" default="xpi" basedir=".">
+
+	<property name="version" value="0.9.1"/> <!-- Configure the version here. The other files will be adapted. -->
+
+	<property name="src.dir" location="md5rehasher@phoneixs.es" />
+	<property name="dist.dir" location="dist" />
+
+	<property name="plugin" value="${ant.project.name}-${version}.xpi" />
+	<property name="dist.jar" location="${dist.dir}/${plugin}" />
+
+
+	<target name="clean">
+		<delete includeEmptyDirs="true" quiet="true" verbose="false">
+			<fileset dir="${dist.dir}" includes="**/*" />
+		</delete>
+	</target>
+
+	<target name="init" depends="clean">
+		<tstamp />
+		<mkdir dir="${dist.dir}"/>
+	</target>
+
+	<target name="configureVersion">
+		<echo message="Version: ${version}"/>
+		<!-- TODO .rdf:  <em:version>0.9.1</em:version> -->
+	</target>
+	
+	<target name="xpi" depends="init,configureVersion">
+		<zip destfile="${dist.dir}/${plugin}" update="false">
+	      <zipfileset dir="${src.dir}"/>
+		</zip>
+	</target>
+
+</project>

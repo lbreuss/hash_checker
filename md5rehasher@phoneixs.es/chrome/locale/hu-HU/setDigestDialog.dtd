@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Hash beállítása...">
+<!ENTITY setDigestDialog.path "Útvonal:">
+<!ENTITY setDigestDialog.enterCS "Ellenőrző összeg megadása">
+<!ENTITY setDigestDialog.unspecified "Hash nem megadott">
+<!ENTITY setDigestDialog.close "Bezár">
+<!ENTITY setDigestDialog.ok "Ok">

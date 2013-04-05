@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Sprawdź plik…">
+<!ENTITY setDigestDialog.path "Ścieżka:">
+<!ENTITY setDigestDialog.enterCS "Wprowadź sumę kontrolną:">
+<!ENTITY setDigestDialog.unspecified "Nie określono sumy kontrolnej">
+<!ENTITY setDigestDialog.close "Zamknij">
+<!ENTITY setDigestDialog.ok "OK">

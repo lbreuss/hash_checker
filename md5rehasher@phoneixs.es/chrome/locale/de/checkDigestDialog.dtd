@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Generierte Prüfsumme:">
+<!ENTITY checkDigestDialog.title "Datei überprüfen">
+<!ENTITY checkDigestDialog.path "Pfad:">
+<!ENTITY checkDigestDialog.generate "Prüfsumme generieren">
+<!ENTITY checkDigestDialog.enterCS "Prüfsumme eingeben:">
+<!ENTITY checkDigestDialog.notGenerated "Auf &quot;Prüfsumme generieren&quot; klicken">
+<!ENTITY checkDigestDialog.close "Schließen">

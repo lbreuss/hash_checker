@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Wygenerowana suma kontrolna:">
+<!ENTITY checkDigestDialog.title "Sprawdź plik…">
+<!ENTITY checkDigestDialog.path "Ścieżka:">
+<!ENTITY checkDigestDialog.generate "Generuj sumę kontrolną">
+<!ENTITY checkDigestDialog.enterCS "Wprowadź sumę kontrolną:">
+<!ENTITY checkDigestDialog.notGenerated "Naciśnij przycisk Generuj sumę kontrolną">
+<!ENTITY checkDigestDialog.close "Zamknij">

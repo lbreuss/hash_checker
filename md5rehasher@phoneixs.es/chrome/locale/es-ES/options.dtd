@@ -1,0 +1,8 @@
+<!ENTITY options.title "Opciones de MD5 Reborned Hasher">
+<!ENTITY options.norPan.label "Opciones básicas">
+<!ENTITY options.norPan.description "Puedes eliminar todos los resúmenes guardados pulsando el botón de más abajo.">
+<!ENTITY options.norPan.cleanLabel "Limpiar resúmenes guardados">
+<!ENTITY options.advPan.label "Opciones avanzadas">
+<!ENTITY options.advPan.description "¡Advertencia! Cambios en estas opciones sin saver lo que hacen puede ser peligroso.">
+<!ENTITY options.advPan.intervalLabel "Tiempo de intervalo (ms): ">
+<!ENTITY options.advPan.chunkSize "Tamaño de fragmento (bytes): ">

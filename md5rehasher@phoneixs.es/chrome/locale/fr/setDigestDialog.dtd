@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Vérification du fichier…">
+<!ENTITY setDigestDialog.path "Chemin :">
+<!ENTITY setDigestDialog.enterCS "Saisissez la somme de contrôle :">
+<!ENTITY setDigestDialog.unspecified "Hachage non paramétré">
+<!ENTITY setDigestDialog.close "Fermer">
+<!ENTITY setDigestDialog.ok "OK">

@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Подеси кратки преглед...">
+<!ENTITY setDigestDialog.path "Путања:">
+<!ENTITY setDigestDialog.enterCS "Унесите збир:">
+<!ENTITY setDigestDialog.unspecified "Кратки преглед није одређен">
+<!ENTITY setDigestDialog.close "Затвори">
+<!ENTITY setDigestDialog.ok "У реду">

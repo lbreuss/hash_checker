@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Проверить файл…">
+<!ENTITY setDigestDialog.path "Путь:">
+<!ENTITY setDigestDialog.enterCS "Введите сумму:">
+<!ENTITY setDigestDialog.unspecified "Не указана сумма">
+<!ENTITY setDigestDialog.close "Закрыть">
+<!ENTITY setDigestDialog.ok "Ok">

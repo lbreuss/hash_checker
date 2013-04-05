@@ -1,0 +1,8 @@
+<!ENTITY options.title "Opções do MD5 Reborned Hasher">
+<!ENTITY options.norPan.label "Opções básicas">
+<!ENTITY options.norPan.description "Você pode remover todos os códigos de verificação salvos com o botão abaixo.">
+<!ENTITY options.norPan.cleanLabel "Limpar códigos de verificação salvos">
+<!ENTITY options.advPan.label "Opções avançadas">
+<!ENTITY options.advPan.description "Atenção! Mudanças nestas opções sem saber o que elas fazem pode ser perigoso.">
+<!ENTITY options.advPan.intervalLabel "Intervalo de tempo (ms):">
+<!ENTITY options.advPan.chunkSize "Tamanho dos pedaços (bytes):">

@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Prüfsumme festlegen…">
+<!ENTITY setDigestDialog.path "Pfad:">
+<!ENTITY setDigestDialog.enterCS "Prüfsumme eingeben:">
+<!ENTITY setDigestDialog.unspecified "Prüfsumme nicht angegeben">
+<!ENTITY setDigestDialog.close "Schließen">
+<!ENTITY setDigestDialog.ok "OK">

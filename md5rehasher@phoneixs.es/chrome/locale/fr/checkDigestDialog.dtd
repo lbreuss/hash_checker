@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Somme de contrôle générée :">
+<!ENTITY checkDigestDialog.title "Vérification du fichier…">
+<!ENTITY checkDigestDialog.path "Chemin :">
+<!ENTITY checkDigestDialog.generate "Hachage généré">
+<!ENTITY checkDigestDialog.enterCS "Saisissez la somme de contrôle">
+<!ENTITY checkDigestDialog.notGenerated "Cliquer pour générer le hachage">
+<!ENTITY checkDigestDialog.close "Fermer">

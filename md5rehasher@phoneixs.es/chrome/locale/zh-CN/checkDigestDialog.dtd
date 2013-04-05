@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "生成校验码：">
+<!ENTITY checkDigestDialog.title "检查文件……">
+<!ENTITY checkDigestDialog.path "路径：">
+<!ENTITY checkDigestDialog.generate "生成摘要">
+<!ENTITY checkDigestDialog.enterCS "输入检验码：">
+<!ENTITY checkDigestDialog.notGenerated "点击生成摘要">
+<!ENTITY checkDigestDialog.close "关闭">

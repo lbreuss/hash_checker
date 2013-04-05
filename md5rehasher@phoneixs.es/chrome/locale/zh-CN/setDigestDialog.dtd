@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "检查文件……">
+<!ENTITY setDigestDialog.path "路径：">
+<!ENTITY setDigestDialog.enterCS "输入校验码：">
+<!ENTITY setDigestDialog.unspecified "摘要不详">
+<!ENTITY setDigestDialog.close "关闭">
+<!ENTITY setDigestDialog.ok "好">

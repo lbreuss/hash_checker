@@ -1,0 +1,8 @@
+<!ENTITY options.title "MD5 Reborned Hasher – ustawienia">
+<!ENTITY options.norPan.label "Podstawowe">
+<!ENTITY options.norPan.description "Za pomocą znajdującego się poniżej przycisku, możesz usunąć wszystkie zapisane sumy kontrolne.">
+<!ENTITY options.norPan.cleanLabel "Wyczyść zapisane sumy kontrolne">
+<!ENTITY options.advPan.label "Zaawansowane">
+<!ENTITY options.advPan.description "Ostrzeżenie! Zmiany tych ustawień bez wiedzy na temat ich działania mogą stworzyć niebezpieczeństwo.">
+<!ENTITY options.advPan.intervalLabel "Odstęp czasu (ms):">
+<!ENTITY options.advPan.chunkSize "Rozmiar elementu (w bajtach):">

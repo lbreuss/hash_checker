@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Generált ellenőrző összeg:">
+<!ENTITY checkDigestDialog.title "Fájl ellenőrzés…">
+<!ENTITY checkDigestDialog.path "Útvonal:">
+<!ENTITY checkDigestDialog.generate "Hash generálás">
+<!ENTITY checkDigestDialog.enterCS "Ellenőrző összeg megadás:">
+<!ENTITY checkDigestDialog.notGenerated "Kattintson a hash generáláshoz">
+<!ENTITY checkDigestDialog.close "Bezár">

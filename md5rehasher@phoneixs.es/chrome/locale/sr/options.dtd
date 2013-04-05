@@ -1,0 +1,8 @@
+<!ENTITY options.title "MD5 Reborned Hasher  - опције">
+<!ENTITY options.norPan.label "Опште">
+<!ENTITY options.norPan.description "Уз помоћ дугмета испод можете да уклоните све сачуване кратке прегледе.">
+<!ENTITY options.norPan.cleanLabel "Очисти сачуване кратке прегледе">
+<!ENTITY options.advPan.label "Напредне">
+<!ENTITY options.advPan.description "Пажња! Немојте мењати ове опције, ако не знате чему служе!">
+<!ENTITY options.advPan.intervalLabel "Интервал (мс):">
+<!ENTITY options.advPan.chunkSize "Величина комада (у бајтовима):">

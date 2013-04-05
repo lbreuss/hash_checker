@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Chọn digest...">
+<!ENTITY setDigestDialog.path "Đường dẫn:">
+<!ENTITY setDigestDialog.enterCS "Điền checksum:">
+<!ENTITY setDigestDialog.unspecified "Digest chưa được chỉ định">
+<!ENTITY setDigestDialog.close "Đóng">
+<!ENTITY setDigestDialog.ok "OK">

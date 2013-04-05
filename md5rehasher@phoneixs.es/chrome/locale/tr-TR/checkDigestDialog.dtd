@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Sağlamayı Oluştur:">
+<!ENTITY checkDigestDialog.title "Dosyayı kontrol et...">
+<!ENTITY checkDigestDialog.path "Yol:">
+<!ENTITY checkDigestDialog.generate "Fonksiyonu oluştur">
+<!ENTITY checkDigestDialog.enterCS "Sağlamayı gir:">
+<!ENTITY checkDigestDialog.notGenerated "Tıklayarak fonksiyonu oluştur.">
+<!ENTITY checkDigestDialog.close "Kapat">

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://md5sum/locale/options.dtd">
+<prefwindow id="md5sum-prefs"
+	title="&options.title;"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="optionsStr" src="chrome://md5sum/locale/options.properties"/>
+	</stringbundleset>
+	
+	<script type="application/x-javascript" src="chrome://md5sum/content/options.js"/>
+	
+	<prefpane id="md5sumPrefPanelNormal" label="&options.norPan.label;" style="font-size: medium; margin: 1ex 1ex 2em 1ex; width: 34em;">
+		<vbox style="font-size: medium;">
+			<description>&options.norPan.description;</description>
+			<button label="&options.norPan.cleanLabel;" oncommand="es.md5rehasher.options.cleanAllHashs();"/>
+		</vbox>
+	</prefpane>
+	<prefpane id="md5sumPrefPanelAdvanced" label="&options.advPan.label;" style="font-size: medium; margin: 1ex 1ex 2em 1ex; width: 34em;">
+		<preferences>
+			<preference id="pref_interval" name="extensions.md5rehasher@phoneixs.es.interval" type="int"/>
+			<preference id="pref_chunkSize" name="extensions.md5rehasher@phoneixs.es.chunkSize" type="int"/>
+		</preferences>
+		<vbox>
+			<description style="color:red; font-size: large; margin:1em;">&options.advPan.description;</description>
+			<hbox>
+				<label control="interval" value="&options.advPan.intervalLabel;"/>
+				<textbox preference="pref_interval" id="interval" type="number" min="5" increment="5" />
+			</hbox>
+			<hbox>
+				<label control="chunkSize" value="&options.advPan.chunkSize;"/>
+				<textbox preference="pref_chunkSize" id="chunkSize" type="number" min="1024" max="4294967295" increment="1024" />
+			</hbox>
+		</vbox>
+	</prefpane>
+</prefwindow>

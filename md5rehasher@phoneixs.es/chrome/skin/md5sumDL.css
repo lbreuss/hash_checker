@@ -1,0 +1,14 @@
+richlistitem[type="download"][state="1"] {
+  -moz-binding: url('chrome://md5sum/content/md5sumDL.xml#download-done');
+}
+#path {
+  width:400px;
+}
+#result {
+  text-align:center; 
+  font-size:large;
+  font-weight:bold;
+}
+#generate {
+  padding: 10px 0 10px 0;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0"?> 
+<?xml-stylesheet href="chrome://md5sum/skin/md5sumDL.css" type="text/css"?>
+
+<!--
+
+md5rehasher (named MD5 Reborned Hasher to public) can generate and
+check the digest of firefox downloads.
+Copyright (C) 2009  Javier Alfonso Bellota de Frutos
+
+
+This file is part of md5rehasher.
+
+md5rehasher is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+md5rehasher is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with md5rehasher.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<!DOCTYPE window SYSTEM "chrome://md5sum/locale/md5sumDL.dtd">
+
+<overlay id="mdht-overlayDL"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://md5sum/content/md5sumDL.js"/>
+
+	<stringbundleset id="downloadSet">
+		<stringbundle id="md5sumDLStrings" src="chrome://md5sum/locale/md5sumDL.properties"/>
+	</stringbundleset>
+
+	<!-- added to the downloads context menu dynamically -->
+	<vbox id="contextMenuPalette">
+		<menuitem id="md5sum-mitem" label="&md5sumDL.checkSum;" oncommand="es.md5rehasher.md5sumDL.checkDigest();"/>
+		<menuitem id="md5sum-miset" label="&md5sumDL.setSum;" oncommand="es.md5rehasher.md5sumDL.dialogSetSum();"/>
+	</vbox>
+</overlay>

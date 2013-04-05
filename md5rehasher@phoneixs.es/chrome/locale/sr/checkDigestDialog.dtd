@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Направљени кратки преглед:">
+<!ENTITY checkDigestDialog.title "Направи кратки преглед...">
+<!ENTITY checkDigestDialog.path "Путања:">
+<!ENTITY checkDigestDialog.generate "Направи кратки преглед">
+<!ENTITY checkDigestDialog.enterCS "Унесите кратки преглед:">
+<!ENTITY checkDigestDialog.notGenerated "Кликните „Направи кратки преглед”">
+<!ENTITY checkDigestDialog.close "Затвори">

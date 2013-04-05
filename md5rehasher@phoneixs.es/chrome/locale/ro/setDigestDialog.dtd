@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Verificare fișier…">
+<!ENTITY setDigestDialog.path "Cale:">
+<!ENTITY setDigestDialog.enterCS "Tastați suma de control:">
+<!ENTITY setDigestDialog.unspecified "Sumă de control nespecificată.">
+<!ENTITY setDigestDialog.close "Închide">
+<!ENTITY setDigestDialog.ok "Salvează">

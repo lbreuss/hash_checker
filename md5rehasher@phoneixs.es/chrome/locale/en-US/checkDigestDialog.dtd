@@ -1,0 +1,13 @@
+<!-- XUL string elements. Referenced by "&checkDigestDialog.generated;" -->
+<!ENTITY checkDigestDialog.generated "Calculated Checksum:">
+<!ENTITY checkDigestDialog.title "Check File...">
+<!ENTITY checkDigestDialog.path "Path:">
+<!ENTITY checkDigestDialog.generate "Calculate Digest">
+<!ENTITY checkDigestDialog.enterCS "Enter digest:">
+<!ENTITY checkDigestDialog.notGenerated "Click Calculate Digest">
+<!ENTITY checkDigestDialog.close "Close">
+<!ENTITY checkDigestDialog.fileUrl "File URL">
+<!ENTITY checkDigestDialog.digestUrl "Digest URL">
+<!ENTITY checkDigestDialog.digestUrlGet "Get Digest">
+<!ENTITY checkDigestDialog.digestUrlGuess "Guess Digest Location">
+<!ENTITY checkDigestDialog.Usage "Usage: Press Calculate Digest to process the local file. Manually enter the expected digest, or get the digest from an URL. The location of the digest is guessed from the original URL of the file. Note: checksum, hash, digest are treated as synonym.">

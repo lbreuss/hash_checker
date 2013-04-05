@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Sæt digest…">
+<!ENTITY setDigestDialog.path "Sti:">
+<!ENTITY setDigestDialog.enterCS "Indtast kontrolsum:">
+<!ENTITY setDigestDialog.unspecified "Digest ikke angivet">
+<!ENTITY setDigestDialog.close "Luk">
+<!ENTITY setDigestDialog.ok "OK">

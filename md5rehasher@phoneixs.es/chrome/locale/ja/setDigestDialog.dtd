@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "ハッシュ値を設定...">
+<!ENTITY setDigestDialog.path "パス:">
+<!ENTITY setDigestDialog.enterCS "チェックサムを入力してください:">
+<!ENTITY setDigestDialog.unspecified "ハッシュ値が計算できません">
+<!ENTITY setDigestDialog.close "閉じる">
+<!ENTITY setDigestDialog.ok "OK">

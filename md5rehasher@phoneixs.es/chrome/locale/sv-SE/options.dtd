@@ -1,0 +1,8 @@
+<!ENTITY options.title "Inställningar för MD5 Reborned Hasher">
+<!ENTITY options.norPan.label "Allmänna inställningar">
+<!ENTITY options.norPan.description "Du kan ta bort alla sparade sammandrag med knappen nedan.">
+<!ENTITY options.norPan.cleanLabel "Rensa sparade sammandrag">
+<!ENTITY options.advPan.label "Avancerade inställningar">
+<!ENTITY options.advPan.description "Varning! Ändring av dessa inställningar utan att veta vad de gör kan vara farligt.">
+<!ENTITY options.advPan.intervalLabel "Intervalltid (ms): ">
+<!ENTITY options.advPan.chunkSize "Segmentstorlek (byte): ">

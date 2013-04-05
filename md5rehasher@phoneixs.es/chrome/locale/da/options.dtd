@@ -1,0 +1,8 @@
+<!ENTITY options.title "MD5 Reborned Hasher Indstillinger">
+<!ENTITY options.norPan.label "Generelle indstillinger">
+<!ENTITY options.norPan.description "Du kan fjerne alle gemte digests med knappen nedenunder.">
+<!ENTITY options.norPan.cleanLabel "Ryd gemte digests">
+<!ENTITY options.advPan.label "Avancerede indstillinger">
+<!ENTITY options.advPan.description "Advarsel! Ændringer af disse indstillinger kan være farligt, hvis du ikke ved hvad de betyder.">
+<!ENTITY options.advPan.intervalLabel "Intervaltid (ms):">
+<!ENTITY options.advPan.chunkSize "Fragmentstørrelse (bytes):">

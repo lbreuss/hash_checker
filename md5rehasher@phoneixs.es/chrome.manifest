@@ -1,0 +1,21 @@
+content md5sum chrome/content/
+skin md5sum classic chrome/skin/
+overlay chrome://mozapps/content/downloads/downloads.xul chrome://md5sum/content/md5sumDL.xul
+
+locale md5sum en-US chrome/locale/en-US/
+locale md5sum es-ES chrome/locale/es-ES/
+locale md5sum ro chrome/locale/ro/
+locale md5sum pl chrome/locale/pl/
+locale md5sum ru-RU chrome/locale/ru-RU/
+locale md5sum da chrome/locale/da/
+locale md5sum de chrome/locale/de/
+locale md5sum pt-BR chrome/locale/pt-BR/
+locale md5sum ja chrome/locale/ja/
+locale md5sum fr chrome/locale/fr/
+locale md5sum tr-TR chrome/locale/tr-TR/
+locale md5sum zh-CN chrome/locale/zh-CN/
+locale md5sum vi chrome/locale/vi/
+locale md5sum sr chrome/locale/sr/
+locale md5sum hu-HU chrome/locale/hu-HU/
+locale md5sum cs chrome/locale/cs/
+locale md5sum sv-SE chrome/locale/sv-SE/

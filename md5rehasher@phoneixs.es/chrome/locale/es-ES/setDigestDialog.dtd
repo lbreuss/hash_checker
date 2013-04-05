@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Establecer resumen…">
+<!ENTITY setDigestDialog.path "Ruta:">
+<!ENTITY setDigestDialog.enterCS "Introducir Resumen:">
+<!ENTITY setDigestDialog.unspecified "Introducir/Pegar el resumen">
+<!ENTITY setDigestDialog.close "Cancelar">
+<!ENTITY setDigestDialog.ok "Aceptar">

@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Подсчитанная сумма:">
+<!ENTITY checkDigestDialog.title "Проверить файл...">
+<!ENTITY checkDigestDialog.path "Путь:">
+<!ENTITY checkDigestDialog.generate "Подсчитать сумму">
+<!ENTITY checkDigestDialog.enterCS "Введите сумму:">
+<!ENTITY checkDigestDialog.notGenerated "Нажмите кнопку 'Подсчитать сумму'">
+<!ENTITY checkDigestDialog.close "Закрыть">

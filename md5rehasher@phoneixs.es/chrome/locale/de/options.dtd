@@ -1,0 +1,8 @@
+<!ENTITY options.title "MD5 Reborned Hasher - Einstellungen">
+<!ENTITY options.norPan.label "Grundeinstellungen">
+<!ENTITY options.norPan.description "Mit dieser Schaltfläche können alle gespeicherten Prüfsummen entfernt werden.">
+<!ENTITY options.norPan.cleanLabel "Gespeicherte Prüfsummen löschen">
+<!ENTITY options.advPan.label "Erweiterte Einstellungen">
+<!ENTITY options.advPan.description "Warnung! Änderungen an diesen Einstellungen, ohne ihre Wirkung zu kennen, können gefährlich sein.">
+<!ENTITY options.advPan.intervalLabel "Zeitintervall (ms):">
+<!ENTITY options.advPan.chunkSize "Blockgröße (Bytes):">

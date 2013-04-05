@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Resumen generado:">
+<!ENTITY checkDigestDialog.title "Resumir Archivo …">
+<!ENTITY checkDigestDialog.path "Ruta:">
+<!ENTITY checkDigestDialog.generate "Generar Resumen">
+<!ENTITY checkDigestDialog.enterCS "Introducir Resumen:">
+<!ENTITY checkDigestDialog.notGenerated "Pulsa Generar Resumen">
+<!ENTITY checkDigestDialog.close "Cerrar">

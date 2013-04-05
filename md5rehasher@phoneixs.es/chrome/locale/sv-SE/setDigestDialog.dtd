@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Ange sammandrag…">
+<!ENTITY setDigestDialog.path "Sökväg:">
+<!ENTITY setDigestDialog.enterCS "Ange kontrollsumma:">
+<!ENTITY setDigestDialog.unspecified "Inget sammandrag har angivits">
+<!ENTITY setDigestDialog.close "Stäng">
+<!ENTITY setDigestDialog.ok "OK">

@@ -1,0 +1,8 @@
+<!ENTITY options.title "Možnosti rozšíření MD5 Reborned Hasher">
+<!ENTITY options.norPan.label "Základní možnosti">
+<!ENTITY options.norPan.description "Tlačítko níže odstraní všechny uložené otisky.">
+<!ENTITY options.norPan.cleanLabel "Vyčistit uložené otisky">
+<!ENTITY options.advPan.label "Pokročilé možnosti">
+<!ENTITY options.advPan.description "Pozor! Změna těchto nastavení může být nebezpečná, pokud nevíte, co děláte.">
+<!ENTITY options.advPan.intervalLabel "Délka intervalu (ms):">
+<!ENTITY options.advPan.chunkSize "Velikost bloku (bajtů):">

@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Set digest…">
+<!ENTITY setDigestDialog.path "Path:">
+<!ENTITY setDigestDialog.enterCS "Enter checksum:">
+<!ENTITY setDigestDialog.unspecified "Digest unspecified">
+<!ENTITY setDigestDialog.close "Close">
+<!ENTITY setDigestDialog.ok "Ok">

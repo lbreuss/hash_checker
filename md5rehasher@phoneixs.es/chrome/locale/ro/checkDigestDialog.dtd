@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Sumă de control calculată:">
+<!ENTITY checkDigestDialog.title "Verificare fișier">
+<!ENTITY checkDigestDialog.path "Cale:">
+<!ENTITY checkDigestDialog.generate "Calculează suma de control">
+<!ENTITY checkDigestDialog.enterCS "Sumă de control furnizată:">
+<!ENTITY checkDigestDialog.notGenerated "Calculați suma de control">
+<!ENTITY checkDigestDialog.close "Închide">

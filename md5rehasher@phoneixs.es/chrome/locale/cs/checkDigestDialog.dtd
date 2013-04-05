@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Zjištěný kontrolní součet:">
+<!ENTITY checkDigestDialog.title "Zkontrolovat soubor…">
+<!ENTITY checkDigestDialog.path "Cesta:">
+<!ENTITY checkDigestDialog.generate "Zjistit otisk">
+<!ENTITY checkDigestDialog.enterCS "Vložte kontrolní součet:">
+<!ENTITY checkDigestDialog.notGenerated "Klepnutím na tlačítko zjistěte otisk">
+<!ENTITY checkDigestDialog.close "Zavřít">

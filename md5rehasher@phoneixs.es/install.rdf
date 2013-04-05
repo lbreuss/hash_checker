@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+
+<!--
+
+md5rehasher (named MD5 Reborned Hasher to public) can generate and
+check the digest of firefox downloads.
+Copyright (C) 2009  Javier Alfonso Bellota de Frutos
+
+This file is part of md5rehasher.
+
+md5rehasher is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+md5rehasher is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with md5rehasher.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>md5rehasher@phoneixs.es</em:id>
+		<em:version>0.9.1</em:version>
+		<em:type>2</em:type>
+		<em:optionsURL>chrome://md5sum/content/options.xul</em:optionsURL>
+		<em:localized>
+			<Description>
+				<em:locale>es-ES</em:locale>
+				<em:name>MD5 Reborned Hasher</em:name>
+				<em:description>Esta extensión del firefox te permite calcular y comprobar la suma de comprobación de un archivo descargado usando los algorítmos MD2, MD5, SHA1, SHA256, SHA384 y SHA512.</em:description>
+				<em:creator>Javier Alfonso</em:creator>
+				<em:developer>Javier Alfonso</em:developer>
+				<em:translator>Javier Alfonso (es-ES)</em:translator>
+				<em:translator>Leszek(teo)Zyczkowski (pl-PL)</em:translator>
+				<em:translator>Cătălin ZAMFIRESCU [x10firefox] (ro-RO)</em:translator>
+				<em:translator>TLemur (ru-RU)</em:translator>
+				<em:translator>Joergen (da-DK)</em:translator>
+				<em:translator>erglo (de-DE)</em:translator>
+				<em:translator>Marcelo Ghelman (pt-BR)</em:translator>
+				<em:translator>Masahiko Imanaka (ja)</em:translator>
+				<em:translator>Frenchmozilla (fr)</em:translator>
+				<em:translator>mrtcvk (tr-TR)</em:translator>
+				<em:translator>最爱你是谁 (zh-CN)</em:translator>
+				<em:translator>Nguyễn Hoàng Long (vi-VN)</em:translator>
+				<em:translator>DakSrbija (sr)</em:translator>
+				<em:translator>vargaviktor (hu-HU)</em:translator>
+				<em:translator>Czech (cs)</em:translator>
+        		<em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+				<em:iconURL>chrome://md5sum/skin/md5rehasher.png</em:iconURL>
+				<em:homepageURL>https://sourceforge.net/projects/md5rehasher</em:homepageURL>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>de</em:locale>
+				<em:name>MD5 Reborned Hasher</em:name>
+				<em:description>Diese Erweiterung ermüglicht das Kontrollieren der MD2, MD5, SHA1, SHA256, SHA384 oder SHA512 Prüfsumme einer heruntergeladenen Datei.</em:description>
+				<em:creator>Javier Alfonso</em:creator>
+				<em:developer>Javier Alfonso</em:developer>
+				<em:translator>Javier Alfonso (es-ES)</em:translator>
+				<em:translator>Leszek(teo)Zyczkowski (pl-PL)</em:translator>
+				<em:translator>Cătălin ZAMFIRESCU [x10firefox] (ro-RO)</em:translator>
+				<em:translator>TLemur (ru-RU)</em:translator>
+				<em:translator>Joergen (da-DK)</em:translator>
+				<em:translator>erglo (de-DE)</em:translator>
+				<em:translator>Marcelo Ghelman (pt-BR)</em:translator>
+				<em:translator>Masahiko Imanaka (ja)</em:translator>
+				<em:translator>Frenchmozilla (fr)</em:translator>
+				<em:translator>mrtcvk (tr-TR)</em:translator>
+				<em:translator>最爱你是谁 (zh-CN)</em:translator>
+				<em:translator>Nguyễn Hoàng Long (vi-VN)</em:translator>
+				<em:translator>DakSrbija (sr)</em:translator>
+				<em:translator>vargaviktor (hu-HU)</em:translator>
+				<em:translator>Czech (cs)</em:translator>
+        		<em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+				<em:iconURL>chrome://md5sum/skin/md5rehasher.png</em:iconURL>
+				<em:homepageURL>https://sourceforge.net/projects/md5rehasher</em:homepageURL>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>pt-BR</em:locale>
+				<em:name>MD5 Reborned Hasher</em:name>
+				<em:description>Esta extensão permite fazer as verificações MD2, MD5, SHA1, SHA256, SHA384 ou SHA512 de um arquivo baixado.</em:description>
+				<em:creator>Javier Alfonso</em:creator>
+				<em:developer>Javier Alfonso</em:developer>
+				<em:translator>Javier Alfonso (es-ES)</em:translator>
+				<em:translator>Leszek(teo)Zyczkowski (pl-PL)</em:translator>
+				<em:translator>Cătălin ZAMFIRESCU [x10firefox] (ro-RO)</em:translator>
+				<em:translator>TLemur (ru-RU)</em:translator>
+				<em:translator>Joergen (da-DK)</em:translator>
+				<em:translator>erglo (de-DE)</em:translator>
+				<em:translator>Marcelo Ghelman (pt-BR)</em:translator>
+				<em:translator>Masahiko Imanaka (ja)</em:translator>
+				<em:translator>Frenchmozilla (fr)</em:translator>
+				<em:translator>mrtcvk (tr-TR)</em:translator>
+				<em:translator>最爱你是谁 (zh-CN)</em:translator>
+				<em:translator>Nguyễn Hoàng Long (vi-VN)</em:translator>
+				<em:translator>DakSrbija (sr)</em:translator>
+				<em:translator>vargaviktor (hu-HU)</em:translator>
+				<em:translator>Czech (cs)</em:translator>
+        		<em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+				<em:iconURL>chrome://md5sum/skin/md5rehasher.png</em:iconURL>
+				<em:homepageURL>https://sourceforge.net/projects/md5rehasher</em:homepageURL>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>ro</em:locale>
+				<em:name>MD5 Reborned Hasher</em:name>
+				<em:description>Această extensie permite verificarea sumelor de control MD2, MD5, SHA1, SHA256, SHA384 sau SHA512 pentru fişierele descărcate.</em:description>
+				<em:creator>Javier Alfonso</em:creator>
+				<em:developer>Javier Alfonso</em:developer>
+				<em:translator>Javier Alfonso (es-ES)</em:translator>
+				<em:translator>Leszek(teo)Zyczkowski (pl-PL)</em:translator>
+				<em:translator>Cătălin ZAMFIRESCU [x10firefox] (ro-RO)</em:translator>
+				<em:translator>TLemur (ru-RU)</em:translator>
+				<em:translator>Joergen (da-DK)</em:translator>
+				<em:translator>erglo (de-DE)</em:translator>
+				<em:translator>Marcelo Ghelman (pt-BR)</em:translator>
+				<em:translator>Masahiko Imanaka (ja)</em:translator>
+				<em:translator>Frenchmozilla (fr)</em:translator>
+				<em:translator>mrtcvk (tr-TR)</em:translator>
+				<em:translator>最爱你是谁 (zh-CN)</em:translator>
+				<em:translator>Nguyễn Hoàng Long (vi-VN)</em:translator>
+				<em:translator>DakSrbija (sr)</em:translator>
+				<em:translator>vargaviktor (hu-HU)</em:translator>
+				<em:translator>Czech (cs)</em:translator>
+        		<em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+				<em:iconURL>chrome://md5sum/skin/md5rehasher.png</em:iconURL>
+				<em:homepageURL>https://sourceforge.net/projects/md5rehasher</em:homepageURL>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>ru</em:locale>
+				<em:name>MD5 Reborned Hasher</em:name>
+				<em:description>Это расширение проверяет контрольные суммы MD2, MD5, SHA1, SHA256, SHA384 или SHA512 скачанных файлов.</em:description>
+				<em:creator>Javier Alfonso</em:creator>
+				<em:developer>Javier Alfonso</em:developer>
+				<em:translator>Javier Alfonso (es-ES)</em:translator>
+				<em:translator>Leszek(teo)Zyczkowski (pl-PL)</em:translator>
+				<em:translator>Cătălin ZAMFIRESCU [x10firefox] (ro-RO)</em:translator>
+				<em:translator>TLemur (ru-RU)</em:translator>
+				<em:translator>Joergen (da-DK)</em:translator>
+				<em:translator>erglo (de-DE)</em:translator>
+				<em:translator>Marcelo Ghelman (pt-BR)</em:translator>
+				<em:translator>Masahiko Imanaka (ja)</em:translator>
+				<em:translator>Frenchmozilla (fr)</em:translator>
+				<em:translator>mrtcvk (tr-TR)</em:translator>
+				<em:translator>最爱你是谁 (zh-CN)</em:translator>
+				<em:translator>Nguyễn Hoàng Long (vi-VN)</em:translator>
+				<em:translator>DakSrbija (sr)</em:translator>
+				<em:translator>vargaviktor (hu-HU)</em:translator>
+				<em:translator>Czech (cs)</em:translator>
+        		<em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+				<em:iconURL>chrome://md5sum/skin/md5rehasher.png</em:iconURL>
+				<em:homepageURL>https://sourceforge.net/projects/md5rehasher</em:homepageURL>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>sv-SE</em:locale>
+				<em:name>MD5 Reborned Hasher</em:name>
+				<em:description>Låter dig kontrollera kontrollsummorna MD2, MD5, SHA1, SHA256, SHA384 och SHA512 för en nerladdad fil.</em:description>
+        		<em:creator>Javier Alfonso</em:creator>
+        		<em:developer>Javier Alfonso</em:developer>
+				<em:translator>Javier Alfonso (es-ES)</em:translator>
+				<em:translator>Leszek(teo)Zyczkowski (pl-PL)</em:translator>
+				<em:translator>Cătălin ZAMFIRESCU [x10firefox] (ro-RO)</em:translator>
+				<em:translator>TLemur (ru-RU)</em:translator>
+				<em:translator>Joergen (da-DK)</em:translator>
+				<em:translator>erglo (de-DE)</em:translator>
+				<em:translator>Marcelo Ghelman (pt-BR)</em:translator>
+				<em:translator>Masahiko Imanaka (ja)</em:translator>
+				<em:translator>Frenchmozilla (fr)</em:translator>
+				<em:translator>mrtcvk (tr-TR)</em:translator>
+				<em:translator>最爱你是谁 (zh-CN)</em:translator>
+				<em:translator>Nguyễn Hoàng Long (vi-VN)</em:translator>
+				<em:translator>DakSrbija (sr)</em:translator>
+				<em:translator>vargaviktor (hu-HU)</em:translator>
+				<em:translator>Czech (cs)</em:translator>
+        		<em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+				<em:iconURL>chrome://md5sum/skin/md5rehasher.png</em:iconURL>
+				<em:homepageURL>https://sourceforge.net/projects/md5rehasher</em:homepageURL>
+			</Description>
+		</em:localized>
+		<em:name>MD5 Reborned Hasher</em:name>
+		<em:description>This extension allows to check the MD2, MD5, SHA1, SHA256, SHA384 or SHA512 sum of a downloaded file.</em:description>
+		<em:creator>Javier Alfonso</em:creator>
+		<em:developer>Javier Alfonso</em:developer>
+		<em:translator>Javier Alfonso (es-ES)</em:translator>
+		<em:translator>Leszek(teo)Zyczkowski (pl-PL)</em:translator>
+		<em:translator>Cătălin ZAMFIRESCU [x10firefox] (ro-RO)</em:translator>
+		<em:translator>TLemur (ru-RU)</em:translator>
+		<em:translator>Joergen (da-DK)</em:translator>
+		<em:translator>erglo (de-DE)</em:translator>
+		<em:translator>Marcelo Ghelman (pt-BR)</em:translator>
+		<em:translator>Masahiko Imanaka (ja)</em:translator>
+		<em:translator>Frenchmozilla (fr)</em:translator>
+		<em:translator>mrtcvk (tr-TR)</em:translator>
+		<em:translator>最爱你是谁 (zh-CN)</em:translator>
+		<em:translator>Nguyễn Hoàng Long (vi-VN)</em:translator>
+		<em:translator>DakSrbija (sr)</em:translator>
+		<em:translator>vargaviktor (hu-HU)</em:translator>
+		<em:translator>Czech (cs)</em:translator>
+		<em:iconURL>chrome://md5sum/skin/md5rehasher.png</em:iconURL>
+		<em:homepageURL>https://sourceforge.net/projects/md5rehasher</em:homepageURL>
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>4.0b1</em:minVersion>
+				<em:maxVersion>4.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+</RDF>

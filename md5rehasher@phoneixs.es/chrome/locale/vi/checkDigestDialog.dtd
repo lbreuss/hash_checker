@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "Checksum đã được tạo:">
+<!ENTITY checkDigestDialog.title "Kiểm tra dữ liệu...">
+<!ENTITY checkDigestDialog.path "Đường dẫn:">
+<!ENTITY checkDigestDialog.generate "Tạo Digest">
+<!ENTITY checkDigestDialog.enterCS "Điền checksum:">
+<!ENTITY checkDigestDialog.notGenerated "Ấn &quot;Tạo Digest&quot;">
+<!ENTITY checkDigestDialog.close "Đóng">

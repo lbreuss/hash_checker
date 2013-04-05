@@ -1,0 +1,7 @@
+<!ENTITY checkDigestDialog.generated "生成されたチェックサム:">
+<!ENTITY checkDigestDialog.title "ハッシュ値を確認...">
+<!ENTITY checkDigestDialog.path "パス:">
+<!ENTITY checkDigestDialog.generate "ハッシュ値生成">
+<!ENTITY checkDigestDialog.enterCS "チェックサムを入力してください:">
+<!ENTITY checkDigestDialog.notGenerated "ハッシュ値生成ボタンをクリックしてください">
+<!ENTITY checkDigestDialog.close "閉じる">

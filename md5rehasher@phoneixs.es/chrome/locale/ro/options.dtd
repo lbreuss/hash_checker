@@ -1,0 +1,8 @@
+<!ENTITY options.title "Opțiuni MD5 Reborned Hasher">
+<!ENTITY options.norPan.label "Opțiuni de bază">
+<!ENTITY options.norPan.description "Puteți elimina toate sumele de control salvate.">
+<!ENTITY options.norPan.cleanLabel "Elimină sumele de control salvate">
+<!ENTITY options.advPan.label "Opțiuni avansate">
+<!ENTITY options.advPan.description "Atenție! Modificarea acestor opțiuni fără a ști ce înseamnă poate fi periculoasă.">
+<!ENTITY options.advPan.intervalLabel "Interval de timp (ms):">
+<!ENTITY options.advPan.chunkSize "Dimensiune a unui fragment (octeți):">

@@ -1,0 +1,142 @@
+Version 0.9.0
+2011-03-31
+	* Added private browsing compatibility; now you can't save hash/path when
+	  you are in private browsing mode.
+	* Now the progress bar shows the progress of the generation, which is what
+	  is supposed to do progress bars :D.
+	* You can cancel a digest generation in progress.
+	* Changed thread to nsITimer to make it compatible with new firefox 4.
+	* Firefox 4.0 compatible but not compatible with older version. Sorry, but
+	  is free to get Firefox 4.
+	* You can change settings and clean saved digests using the configuration
+	  dialog of the extension (Tools / Add-ons -> Preferences).
+	* You can set the interval of loading then next chunk of the file. When is
+	  more bigger it take more time to finish but it makes firefox hang less.
+	* you can set the chunk size. This is how many bytes you will load from
+	  interval to interval. When more bigger, more efficent but firefox hang
+	  more.
+	* And many little changes.
+	* Translated into czech, danish, german, english (US), spanish, hungarian,
+	  japanese, polish, portuguese (Brazilian), romanian, serbian, swedish and
+	  vietnamese. Thank you all.
+	- Partially translated into french, russian, turkish and chinese (simplified) translations need to be
+	  updated. If you like to help, enter in http://www.babelzilla.org and
+	  search for MD5 Reborned Hasher.
+
+Version 0.8.8
+2011-03-14
+	* The last version compatible with firefox 3.x.
+	* Added Swedish translations (by Mikael Hiort af Ornäs) and updated french translation.
+
+Version 0.8.7
+2011-01-16
+	* Added Czech translation and updated French and Hungarian translations, thanks to strepon, Frédéric and vargaviktor.
+
+Version 0.8.6
+2010-08-21
+	* Added Hungarian translations and updated Turkish translations, thanks to vargaviktor and mrtcvk respectively.
+	* Changed internal code to be more standar.
+
+Version 0.8.5
+2010-07-14
+	* Added Serbian translation, thanks to DakSrbija.
+
+Version 0.8.4
+2009-12-24
+	* Added the "namespace" to the vericator class (es.md5rehasher.Verificator).
+
+Version 0.8.3
+2009-12-23
+	* Updated Danish and German translation.
+
+Version 0.8.2
+2009-12-09
+	* Updated the translations of Danish, Japanese, Polish, Portuguese (Brazilian), Romanian, Russian and Spanish.
+	* Added Vietnamese (Vietnam) translation, thanks to Nguyễn Hoàng Long.
+
+Version 0.8.1
+2009-12-07
+	* Fixed the problem when closing the dialog when a checksum is calculating.
+	* Fixed the problem when generate a checksum when a chucksum is allready calculating.
+	* Fixed the problem of redefining a const.
+	* Added a message when in private browser mode.
+	* Added a check of the file, for not associate a hash to incorrect download.
+	* Added a cleaning of hashs when the extension is loaded.
+	* Removed the auto start of generating a digest sum of a file when is selected a type of hash.
+
+Version 0.8.0
+2009-12-03
+	* Added the posibility to set the digest before the download have been completed.
+	* Added more status messages and "progress" bar.
+	* Translated into Chinese, Danish, English, French, German, Japanese, Polish, Portuguese (Brazilian), Romanian, Russian, Spanish and Turkish (you can see translators in the extesion description).
+	* Translated the extension description into english, español, deutsch, português (do Brasil), româna and I think that all as normal translations.
+	* Fixed the issue of checking files bigger than 4GiB (a limit of firefox), very thanks to Nils Maier and the extension DownThemAll (who provide me the new verification algoritm).
+
+Version 0.7.4
+2009-11-20
+	* Updated the maximun compability version of firefox to version 3.6.*.
+
+Version 0.7.3
+2009-08-28
+	* Added Romanian translation by x10firefox.
+	* Updated (and finished) the Russian translation.
+
+Version 0.7.2
+2009-08-21
+	* Added Danish translation by Joergen.
+
+Version 0.7.1
+2009-08-20
+	* Fixed unlinked translations.
+
+Version 0.7.0
+2009-08-18
+	* Updated the translations for the new layout.
+
+Version 0.7.0pre
+2009-08-06
+	* Completly updated directory layout.
+	* Added an icon.
+	* Translated description.
+	* And more. All thanks to Teo.
+
+Version 0.6.4
+2009-08-04
+	* Translated into Polish by teo.
+
+Version 0.6.3
+2009-07-28
+	* Translated into Portuguese and Russian.
+
+Version 0.6.2
+2009-07-21
+	* Fixed the chrome manifest bug of locales.
+
+Version 0.6.1
+2009-07-21
+	* Translated into German.
+	* Changed Spanish translation from "es" to "es-ES".
+	* Added compability with all 3.5.x versions.
+
+Version 0.6.0
+2009-07-08
+	* Maked translatable.
+	* Translated into Spanish.
+
+Version 0.5.1
+2009-06-10
+	* Updated for compatibility with firefox 3.5.
+
+Version 0.5
+2009-06-08
+	* Removing all white spaces.
+	* Case insensitive check.
+	* Compared when user enter the sum or when it is computed.
+
+Version 0.2.2
+2008-08-06
+	* Removing leading and following white spaces of entered checksum 
+
+Version 0.2.1
+2008-08-05
+	* "File does not exist!" warning added

@@ -1,0 +1,6 @@
+<!ENTITY setDigestDialog.title "Verificar arquivo...">
+<!ENTITY setDigestDialog.path "Caminho:">
+<!ENTITY setDigestDialog.enterCS "Digite o checksum:">
+<!ENTITY setDigestDialog.unspecified "Código de verificação não especificado">
+<!ENTITY setDigestDialog.close "Fechar">
+<!ENTITY setDigestDialog.ok "Ok">

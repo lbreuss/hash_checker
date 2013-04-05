@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://md5sum/skin/md5sumDL.css" type="text/css"?>
+
+<!--
+
+md5rehasher (named MD5 Reborned Hasher to public) can generate and
+check the digest of firefox downloads.
+Copyright (C) 2009  Javier Alfonso Bellota de Frutos
+
+This file is part of md5rehasher.
+
+md5rehasher is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+md5rehasher is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with md5rehasher.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<!DOCTYPE dialog SYSTEM "chrome://md5sum/locale/checkDigestDialog.dtd">
+<dialog id="checkDigestDialog-window"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&checkDigestDialog.title;"
+	buttons="cancel"
+	buttonlabelcancel="&checkDigestDialog.close;"
+	ondialogcancel="return es.md5rehasher.checkDigestDialog.doCancel();">
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="checkDigestDialogStrings" src="chrome://md5sum/locale/checkDigestDialog.properties"/>
+	</stringbundleset>
+
+	<vbox>
+		<hbox>
+			<label value="&checkDigestDialog.path;"/>
+			<label id="path" value="" crop="end"/>
+		</hbox>
+		<hbox>
+			<label value="&checkDigestDialog.fileUrl;"/>
+			<label id="fileUrlLabel" value="" crop="center" tooltiptext="The original URL of the file."/>
+		</hbox>
+		<hbox id="generate">
+			<menulist label="HashAlgo" id="HashAlgo" tooltiptext="Tooltip asdf">
+				<menupopup>
+					<menuitem id="MD2label" label="MD2"/>
+					<menuitem id="MD5label" label="MD5" selected="true"/>
+					<menuitem id="SHA1label" label="SHA1"/>
+					<menuitem id="SHA256label" label="SHA256"/>
+					<menuitem id="SHA384label" label="SHA384"/>
+					<menuitem id="SHA512label" label="SHA512"/>
+				</menupopup>
+			</menulist>
+			<button id="calcDigest" label="&checkDigestDialog.generate;" onclick="es.md5rehasher.checkDigestDialog.calculateDigest()"/>
+		</hbox>
+		<label control="calculatedDigest" value="&checkDigestDialog.generated;"/>
+		<textbox id="calculatedDigest" readonly="true"/>
+		<label control="expectedDigest" value="&checkDigestDialog.enterCS;"/>
+		<textbox id="expectedDigest" oninput="es.md5rehasher.checkDigestDialog.compareDigests()"/>
+		<label control="digestUrlTextbox" value="&checkDigestDialog.digestUrl;"/>
+		<textbox id="digestUrlTextbox"/>
+		<hbox>
+			<button id="getDigest" label="&checkDigestDialog.digestUrlGet;" onclick="es.md5rehasher.checkDigestDialog.downloadGivenDigest()"/>
+			<button id="guessDigest" label="&checkDigestDialog.digestUrlGuess;" onclick="es.md5rehasher.checkDigestDialog.tryDownloadDigest()"/>
+		</hbox>
+		<separator class="thin"/>
+		<hbox>
+			<progressmeter id="progressBar" mode="undetermined" hidden="true"/>
+			<label id="result" value="&checkDigestDialog.notGenerated;"/>
+		</hbox>
+	</vbox>
+	<script type="application/x-javascript" src="chrome://md5sum/content/checkDigestDialog.js"/>
+
+</dialog>

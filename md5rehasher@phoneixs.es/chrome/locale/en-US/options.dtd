@@ -1,0 +1,8 @@
+<!ENTITY options.title "MD5 Reborned Hasher Options">
+<!ENTITY options.norPan.label "Basic options">
+<!ENTITY options.norPan.description "You can remove all digests saved with the buttom below.">
+<!ENTITY options.norPan.cleanLabel "Clean saved digests">
+<!ENTITY options.advPan.label "Advanced options">
+<!ENTITY options.advPan.description "Warning! Changes to this options without knowing what they do may be dangerous.">
+<!ENTITY options.advPan.intervalLabel "Interval time (ms): ">
+<!ENTITY options.advPan.chunkSize "Chunk size (bytes): ">

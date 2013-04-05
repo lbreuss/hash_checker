@@ -1,0 +1,8 @@
+<!ENTITY options.title "MD5 Reborned Hasher オプション">
+<!ENTITY options.norPan.label "基本設定">
+<!ENTITY options.norPan.description "以下のボタンで、保存されたすべてのハッシュ値を削除できます。">
+<!ENTITY options.norPan.cleanLabel "保存されたハッシュ値を消去">
+<!ENTITY options.advPan.label "詳細設定">
+<!ENTITY options.advPan.description "警告！ このオプションをよく理解せずに変更することは危険です。">
+<!ENTITY options.advPan.intervalLabel "インターバル時間 (ms):">
+<!ENTITY options.advPan.chunkSize "チャンクサイズ (bytes):">
